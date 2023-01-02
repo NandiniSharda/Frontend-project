@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Gentium+Plus&family=IBM+Plex+Serif&family=Monoton&family=Outfit:wght@200&display=swap"
+        rel="stylesheet">
+    <title>QR Code</title>
+    <style>
+        * {
+            font-family: 'Cormorant Garamond', serif;
+            font-family: 'Gentium Plus', serif;
+            font-family: 'IBM Plex Serif', serif;
+            font-family: 'Monoton', cursive;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 400;
+        }
+
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(220, 15%, 55%);
+        }
+
+        #pc {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: hsl(212, 45%, 89%);
+        }
+
+        .qr {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 12px;
+            margin: 17px;
+            background-color: white;
+            height: 625px;
+            width: 375px;
+            border-radius: 15px;
+        }
+
+        .qr img {
+            height: 375px;
+            width: 375px;
+            border-radius: 10px;
+        }
+
+        .qr p {
+            font-weight: bolder;
+            text-align: center;
+            font-size: 2rem;
+            padding: 1px 10px;
+            margin: 15px 0px;
+        }
+
+        .qr span {
+            text-align: center;
+            font-size: 1.5rem;
+            padding: 1px 10px;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="pc">
+        <div class="qr">
+            <img src="images/image-qr-code.png" alt="#">
+            <p>Improve Your front-end skills by building projects</p>
+            <span>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</span>
+        </div>
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Nandini Sharda</a>.
+    </div>
+</body>
+
+</html>
